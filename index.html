@@ -277,8 +277,8 @@
             
               
                 
-                <a class="post-title-link" href="/2016/09/28/hello-world9/" itemprop="url">
-                  Hello World
+                <a class="post-title-link" href="/2016/09/28/set-up-blog-with-hexo-org-mode/" itemprop="url">
+                  set-up-blog-with-hexo+org-mode
                 </a>
               
             
@@ -291,7 +291,7 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-09-28T13:46:07+08:00" content="2016-09-28">
+            <time itemprop="dateCreated" datetime="2016-09-28T08:00:00+08:00" content="2016-09-28">
               2016-09-28
             </time>
           </span>
@@ -305,8 +305,8 @@
               <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/rensheng/" itemprop="url" rel="index">
-                    <span itemprop="name">rensheng</span>
+                  <a href="/categories/emacs/" itemprop="url" rel="index">
+                    <span itemprop="name">emacs</span>
                   </a>
                 </span>
 
@@ -321,8 +321,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/09/28/hello-world9/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/09/28/hello-world9/" itemprop="commentsCount"></span>
+                <a href="/2016/09/28/set-up-blog-with-hexo-org-mode/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/09/28/set-up-blog-with-hexo-org-mode/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -346,10 +346,17 @@
 
       
         
-          <p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+          <div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1">&#x4E3A;&#x4EC0;&#x4E48;&#x6709;&#x8FD9;&#x4EFD;&#x6559;&#x7A0B;</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+  &#x5B66;&#x4E60;emacs&#xFF0C;&#x88AB;emacs&#x7684;org-mode&#x6240;&#x6DF1;&#x6DF1;&#x5438;&#x5F15;&#xFF0C;&#x6211;&#x4E5F;&#x5F00;&#x59CB;&#x5165;&#x5751;&#xFF0C;&#x65E9;&#x5C31;&#x60F3;&#x7740;&#x8981;&#x5199;&#x535A;&#x5BA2;&#xFF0C;&#x4E8E;&#x662F;&#x4E4E;&#x6211;&#x9009;&#x62E9;&#x4E86;&#x6BD4;&#x8F83;&#x6D41;&#x884C;&#x548C;&#x597D;&#x7528;&#x7684;hexo&#x3002;
+  &#x5F53;&#x6211;&#x5F00;&#x59CB;&#x642D;&#x5EFA;&#x6211;&#x7684;&#x535A;&#x5BA2;&#x73AF;&#x5883;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x53D1;&#x73B0;&#x7F51;&#x4E0A;&#x51E0;&#x4E4E;&#x6CA1;&#x6709;&#x4E00;&#x4EFD;&#x6E05;&#x6670;&#x5B8C;&#x6574;&#x7684;&#x6559;&#x7A0B;&#x6765;&#x6307;&#x5BFC;&#x6211;&#x7684;&#x5DE5;&#x4F5C;&#xFF0C;&#x6211;&#x4E1C;&#x62FC;&#x897F;&#x51D1;&#xFF0C;&#x6478;&#x7740;&#x77F3;&#x5934;&#x8FC7;&#x6CB3;&#xFF0C;&#x81EA;&#x5DF1;&#x82B1;&#x4E86;&#x8FD1;&#x4E24;&#x5929;&#x7684;&#x65F6;&#x5019;&#x7EC8;&#x4E8E;&#x642D;&#x5EFA;&#x597D;&#x4E86;&#x6211;&#x7684;&#x73AF;&#x5883;&#x3002;
+&#x6240;&#x4EE5;&#x6211;&#x60F3;&#x5199;&#x8FD9;&#x6837;&#x7684;&#x4E00;&#x4EFD;&#x6559;&#x7A0B;&#xFF0C;&#x4ED6;&#x662F;&#x9762;&#x5BF9;emacs&#x5165;&#x95E8;&#x7528;&#x6237;&#x7684;&#xFF0C;&#x5982;&#x679C;&#x4F60;&#x50CF;&#x6211;&#x4E00;&#x6837;&#xFF0C;&#x521A;&#x521A;&#x5165;&#x95E8;emacs&#xFF0C;&#x81EA;&#x5DF1;&#x53C8;&#x559C;&#x6B22;&#x5199;blog&#xFF0C;&#x5E76;&#x4E14;&#x9677;&#x5165;emacs&#x7684;org-mode&#x6240;&#x5E26;&#x6765;&#x7684;&#x60CA;&#x559C;&#x800C;&#x65E0;&#x6CD5;&#x81EA;&#x62D4;
+&#x90A3;&#x4E48;&#xFF0C;&#x8FD9;&#x7BC7;&#x6587;&#x7AE0;&#x5E94;&#x8BE5;&#x80FD;&#x5E2E;&#x5230;&#x4F60;&#x3002;
+</p>
           <div class="post-more-link text-center">
-            <a class="btn" href="/2016/09/28/hello-world9/#more" rel="contents">
+            <a class="btn" href="/2016/09/28/set-up-blog-with-hexo-org-mode/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -428,7 +435,7 @@
           
             <div class="site-state-item site-state-categories">
               <a href="/categories">
-                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-count">1</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -437,7 +444,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-count">1</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
