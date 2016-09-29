@@ -2,9 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://weychen.github.io/2016/09/29/how-to-write-notes-with-hexo/</loc>
+    
+    <lastmod>2016-09-29T09:16:20.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://weychen.github.io/about/index.html</loc>
+    
+    <lastmod>2016-09-29T09:00:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://weychen.github.io/emacs/index.html</loc>
+    
+    <lastmod>2016-09-29T08:43:52.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://weychen.github.io/tags/index.html</loc>
     
-    <lastmod>2016-09-28T17:18:22.000Z</lastmod>
+    <lastmod>2016-09-29T08:29:01.000Z</lastmod>
     
   </url>
   
@@ -19,13 +40,6 @@
     <loc>http://weychen.github.io/2016/09/28/set-up-blog-with-hexo-org-mode/</loc>
     
     <lastmod>2016-09-28T16:57:53.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://weychen.github.io/emacs/index.html</loc>
-    
-    <lastmod>2016-09-27T09:55:37.000Z</lastmod>
     
   </url>
   
