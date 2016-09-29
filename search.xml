@@ -13,7 +13,7 @@
 <h2 id="sec-1">&#x5982;&#x4F55;&#x7528;hexo&#x8BB0;&#x5F55;&#x7B14;&#x8BB0;</h2>
 <div class="outline-text-2" id="text-1">
 <p>
-&#x5728;&#x4E3B;&#x9898;&#x7684;&#x914D;&#x7F6E;&#x6587;&#x4EF6; \themes\next\<sub>config</sub>.yml&#x91CC;
+&#x5728;&#x4E3B;&#x9898;&#x7684;&#x914D;&#x7F6E;&#x6587;&#x4EF6; \themes\next\_config.yml&#x91CC;
 </p>
 <div class="org-src-container">
 
@@ -50,7 +50,7 @@ categories:
 </div>
 </div>
 
-Last Updated 2016-09-29 &#x56DB; 17:16.<br>Render by <a href="https://github.com/CodeFalling/hexo-renderer-org" target="_blank" rel="external">hexo-renderer-org</a> with <a href="http://www.gnu.org/software/emacs/" target="_blank" rel="external">Emacs</a> 25.1.1 (<a href="http://orgmode.org" target="_blank" rel="external">Org</a> mode 8.2.10)
+Last Updated 2016-09-29 &#x56DB; 17:39.<br>Render by <a href="https://github.com/CodeFalling/hexo-renderer-org" target="_blank" rel="external">hexo-renderer-org</a> with <a href="http://www.gnu.org/software/emacs/" target="_blank" rel="external">Emacs</a> 25.1.1 (<a href="http://orgmode.org" target="_blank" rel="external">Org</a> mode 8.2.10)
 ]]></content>
     </entry>
     
