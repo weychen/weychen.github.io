@@ -1,11 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+    
+  <url>
+    <loc>http://weychen.github.io/2016/10/12/phpstorm-xdebug-remote/</loc>
+    <lastmod>2016-10-12T14:46:23.000Z</lastmod>
+    <data>
+        <display>
+        <title>phpstorm+xdebug-remote</title>
+        <pubTime>2016-10-12T00:00:00.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://weychen.github.io/2016/10/05/notes-javascript-ruanyifeng/</loc>
+    <lastmod>2016-10-05T11:14:46.000Z</lastmod>
+    <data>
+        <display>
+        <title>notes-javascript-ruanyifeng</title>
+        <pubTime>2016-10-05T00:00:00.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="notes" url="http://weychen.github.io/categories/notes/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://weychen.github.io/2016/09/29/perception/</loc>
+    <lastmod>2016-09-29T15:02:02.000Z</lastmod>
+    <data>
+        <display>
+        <title>perception</title>
+        <pubTime>2016-09-29T00:00:00.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
 
     
   <url>
     <loc>http://weychen.github.io/2016/09/29/how-to-write-notes-with-hexo/</loc>
-    <lastmod>2016-09-29T09:39:44.000Z</lastmod>
+    <lastmod>2016-09-29T14:55:20.000Z</lastmod>
     <data>
         <display>
         <title>how-to-write-notes-with-hexo</title>
@@ -30,7 +77,7 @@
         <title>set-up-blog-with-hexo+org-mode</title>
         <pubTime>2016-09-28T00:00:00.000Z</pubTime>
         
-        <tag>how-to-blog</tag>
+        <tag>how-to-blog </tag>
          
          
            
